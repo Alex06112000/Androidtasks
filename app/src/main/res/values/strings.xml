@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string-array name="Languages">
+        <item>Міліметри (mm)</item>
+        <item>Сантиметри (cm)</item>
+        <item>Метри (m)</item>
+        <item>Кілометри (km)</item>
+        <item>Дюйми (in)</item>
+        <item>Фути (ft)</item>
+        <item>Ярди (yd)</item>
+        <item>Милі (mi)</item>
+        <item>Морські милі (NM)</item>
+    </string-array>
+</resources>
