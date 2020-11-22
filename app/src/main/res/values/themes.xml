@@ -13,11 +13,11 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-    
+
     <style name="NumberButton">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:background">#6e6e6e</item>
+        <item name="android:background">@drawable/shape</item>
         <item name="android:textSize">21sp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:gravity">center</item>
@@ -27,11 +27,17 @@
     <style name="ActionButton">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:background">@android:color/holo_green_light</item>
+        <item name="android:background">@drawable/shape_actions</item>
         <item name="android:textSize">21sp</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">@android:color/black</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_margin">0.5dp</item>
     </style>
+    <style name="Theme.Calculator.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Calculator.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Calculator.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     android:background="@android:color/black"
     android:orientation="vertical"
-    tools:context=".CalculatorActivity">
+    tools:context=".ui.home.HomeFragment">
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="50sp"
-        android:textSize="40sp"
-        android:background="@android:color/white"
-        android:textColor="@android:color/black"/>
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:popupBackground="@android:color/black"
+        android:background="@android:color/white"/>
 
     <TextView
         android:id="@+id/math_result"
@@ -32,9 +33,10 @@
             android:id="@+id/spinner2"
             android:layout_width="match_parent"
             android:layout_height="50sp"
-            android:textSize="40sp"
-            android:background="@android:color/white"
-            android:textColor="@android:color/black"/>
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:popupBackground="@android:color/black"
+            android:background="@android:color/white" />
     </LinearLayout>
     <TextView
         android:id="@+id/math_operation"

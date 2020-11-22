@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun OpenMainActivity(){
-        val intent = Intent(this@MainActivity,CalculatorActivity::class.java)
+        val intent = Intent(this@MainActivity,MainNavActivity::class.java)
         startActivity(intent)
     }
 }
